@@ -2,8 +2,8 @@ import { useEffect, useState, useRef } from 'react';
 import socketIOClient from 'socket.io-client';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ChatLog from './components/chatLog';
-import ChatEntry from './components/chatEntry';
+import ChatLog from './components/ChatLog';
+import ChatEntry from './components/ChatEntry';
 
 require('dotenv').config();
 
